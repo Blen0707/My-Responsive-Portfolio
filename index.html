@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Web Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body >
+  <div class="container">
+    <header class="header">
+      <div class="logo">
+        <div  stylec="logo-b">B</div>
+        <div class="logo-elen">elen</div>
+      </div>
+      <nav class="nav">
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Project</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+      
+     <section id="home" class="section home" style="display: flex; justify-content: space-between; align-items: center; padding: 80px; background-color: #141212; color: white; min-height: 100vh; flex-wrap: wrap;">
+        <div style="max-width: 500px;">
+          <h1 style="font-family: 'Croissant One', sans-serif; margin: 10px 0;">
+            <span style="color: #e2672e;">He</span>llo,
+          </h1>
+          <h2 style="font-family: 'Croissant One', sans-serif; margin: 10px 0;">
+            <span style="color: #e2672e;">I’m</span> Belen Abebe.
+          </h2>
+          <p style="font-size: 18px; line-height: 1.5; margin: 10px 0;">I am a Web Designer and a Web Developer</p>
+          <button style="background-color: #e2672e; color: white; border: none; padding: 10px 20px; font-size: 16px; border-radius: 5px; cursor: pointer; transition: background-color 0.3s;" 
+            onmouseover="this.style.backgroundColor='#d15c21';" 
+            onmouseout="this.style.backgroundColor='#e2672e';">
+            Contact me
+          </button>
+        </div>
+        <img src="img2.jpg" alt="Belen Abebe" style="width: 500px;; max-width: 90%; border-radius: 100px; box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5); margin-top: 20px;">
+      </section> 
+
+    
+
+    <section id="about" class="section about">
+      <h2 class="section-title"><span class="highlight">About Me</span></h2>
+      <div class="about-content">
+        <img src="img 1.jpg" alt="About Image" class="about-image " width="500px" height="500px" >
+        <p>
+          
+
+          Hello! I’m Belen Abebe. I am a web designer aspiring to turn dreams into reality.<br> I’ve always been fascinated by how tech is changing our lives and am committed to being part of the change.I believe that creativity can make a great impact on the world and on peoples lives . <br>. I look forward to progressing and growing in this field.
+         
+        </p>
+      </div>
+    </section>
+
+    <section id="experience" class="section experience">
+      <h2 class="section-title"><span class="highlight">Experience</span></h2>
+      <div class="experience-content">
+        <h3>Frontend Development</h3>
+        <p>HTML: Intermediate<br>CSS: Intermediate<br>JavaScript: Intermediate</p>
+        <h3>Backend Development</h3>
+        <p>C#: Basic<br>PHP: Basic</p>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects">
+      <h2 class="section-title"><span class="highlight">My Projects</span></h2>
+      <div class="project-list">
+        <img src="https://via.placeholder.com/191x252" alt="Project 1" class="project-image">
+        <img src="https://via.placeholder.com/191x252" alt="Coming Soon" class="project-image">
+        <p>Coming Soon</p>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <h2 class="section-title"><span class="highlight">Contact Me</span></h2>
+      <p class="contact-links">
+        <a href="#">LinkedIn</a> | <a href="#">GitHub</a>
+      </p>
+      <p>Copyright 2024 Belen Abebe. All Rights Reserved.</p>
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
