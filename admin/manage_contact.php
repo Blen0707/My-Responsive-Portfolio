@@ -25,27 +25,7 @@ $contacts = $conn->query("SELECT * FROM contact");
 </head>
 <body>
     <div class="container">
-        <!-- Header -->
-        <header class="header">
-            <div class="logo">
-                <div class="logo-b">B</div>
-                <div class="logo-elen">elen</div>
-            </div>
-            <nav class="nav">
-                <div class="hamburger" id="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-                <ul class="nav-links" id="nav-links">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="manage_about.php">About</a></li>
-                    <li><a href="admin/manage_experience.php">Experience</a></li>
-                    <li><a href="admin/manage_project.php">Project</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
+        
         <h1>Manage Contact Section</h1>
         <form method="POST">
             <input type="text" name="platform" placeholder="Platform (e.g., LinkedIn)" required><br>
@@ -62,6 +42,6 @@ $contacts = $conn->query("SELECT * FROM contact");
             <?php endwhile; ?>
         </ul>
     </div>
-    <p>Copyright 2024 Belen Abebe. All Rights Reserved.</p>
+    
 </body>
 </html>

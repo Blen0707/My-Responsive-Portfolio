@@ -18,27 +18,7 @@ $about = $conn->query("SELECT * FROM about LIMIT 1")->fetch_assoc();
     <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
-    <!-- Header -->
-    <header class="header">
-            <div class="logo">
-                <div class="logo-b">B</div>
-                <div class="logo-elen">elen</div>
-            </div>
-            <nav class="nav">
-                <div class="hamburger" id="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-                <ul class="nav-links" id="nav-links">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="manage_about.php">About</a></li>
-                    <li><a href="admin/manage_experience.php">Experience</a></li>
-                    <li><a href="admin/manage_project.php">Project</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
+   
 <!-- <?php echo $about['content']; ?> -->
     <div class="container">
         <h1>Manage About Section</h1>
@@ -47,6 +27,6 @@ $about = $conn->query("SELECT * FROM about LIMIT 1")->fetch_assoc();
             <button type="submit">Update About</button>
         </form>
     </div>
-    <p>Copyright 2024 Belen Abebe. All Rights Reserved.</p>
+   
 </body>
 </html>

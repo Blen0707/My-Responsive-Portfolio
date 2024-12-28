@@ -26,27 +26,7 @@ $projects = $conn->query("SELECT * FROM projects");
 </head>
 <body>
     <div class="container">
-        <!-- Header -->
-        <header class="header">
-            <div class="logo">
-                <div class="logo-b">B</div>
-                <div class="logo-elen">elen</div>
-            </div>
-            <nav class="nav">
-                <div class="hamburger" id="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-                <ul class="nav-links" id="nav-links">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="manage_about.php">About</a></li>
-                    <li><a href="admin/manage_experience.php">Experience</a></li>
-                    <li><a href="admin/manage_project.php">Project</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
+       
         <h1>Manage Projects</h1>
         <form method="POST" action="manage_projects.php">
             <input type="text" name="title" placeholder="Project Title" required><br>

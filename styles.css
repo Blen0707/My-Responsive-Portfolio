@@ -24,7 +24,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
-    background: #141212;
+    background: #272852;
   }
   
   .logo {
@@ -147,4 +147,20 @@ body {
       display: block;
     }
   }
-  
+  .section {
+    margin-bottom: 50px;
+}
+.contact ul {
+  list-style-type: none; /* Removes the default bullet points */
+  padding: 0;
+}
+
+.contact li {
+  margin-bottom: 10px; /* Adds space between each link */
+}
+
+.contact a {
+  text-decoration: none;
+  color: #fff; /* You can adjust the text color */
+  display: block; /* Forces each link to be on a new line */
+}

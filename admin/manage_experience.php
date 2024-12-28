@@ -25,7 +25,7 @@ $experience = $conn->query("SELECT * FROM experience");
 </head>
 <body>
     <div class="container">
-        <!-- Header -->
+        <!-- Header
         <header class="header">
             <div class="logo">
                 <div class="logo-b">B</div>
@@ -45,7 +45,7 @@ $experience = $conn->query("SELECT * FROM experience");
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
-        </header>
+        </header> -->
         <h1>Manage Experience</h1>
         <form method="POST">
             <input type="text" name="title" placeholder="Experience Title" required><br>
@@ -62,6 +62,6 @@ $experience = $conn->query("SELECT * FROM experience");
             <?php endwhile; ?>
         </ul>
     </div>
-    <p>Copyright 2024 Belen Abebe. All Rights Reserved.</p>
+    
 </body>
 </html>
