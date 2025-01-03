@@ -11,11 +11,11 @@ include 'fetch_data.php';
 </head>
 <body>
     <div class="container">
-        <!-- Header -->
+      
         <header class="header">
             <div class="logo">
                 <div class="logo-b" style=color:#e2672e;>Belen</div>
-                <!-- <div class="logo-elen">elen</div> -->
+               
             </div>
             <nav class="nav">
                 <div class="hamburger" id="hamburger">
@@ -29,11 +29,13 @@ include 'fetch_data.php';
                     <li><a href="admin/manage_experience.php">Experience</a></li>
                     <li><a href="admin/manage_projects.php">Project</a></li>
                     <li><a href="admin/manage_contact.php">Contact</a></li>
+                    <li><a href="form.php">register</a></li>
+                    <li><a href="login.php">login</a></li>
                 </ul>
             </nav>
         </header>
 
-        <!-- Home Section -->
+      
         <section id="home" class="section home" style="display: flex; justify-content: space-between; align-items: center; padding: 80px; background-color: #141212; color: white; min-height: 100vh; flex-wrap: wrap;">
             <div style="max-width: 500px;">
                  <h1 style="font-family: 'Croissant One', sans-serif; margin: 10px 0;font-size:70px; color:#e2672e;">Hello,</h1>
@@ -44,7 +46,7 @@ include 'fetch_data.php';
             </div>
             <img src="20240908_101233.jpg" alt="Belen Abebe"style="width: 500px;; max-width: 90%; border-radius: 100px; box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5); margin-top: 20px;">
         </section>
-        <!-- About Section -->
+       
 <section id="about" class="section about hidden" style="display: flex; justify-content: space-between; align-items: center; padding: 80px; background-color: #141212; color: white; min-height: 100vh; flex-wrap: wrap;">
     <img src="1733761570001.jpg" alt="About Image" style="width: 500px; max-width: 90%; border-radius: 900px; box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5); margin-top: 20px;">
     <div style="max-width: 500px;">
